@@ -1,0 +1,108 @@
+<?xml version = "1.0"?>
+<class>
+<user>
+	<first_name>Erik</first_name>
+	<terminator>Bye!</terminator>
+</user>
+<chatbot>
+	<first_name>Eliza</first_name>
+	<terminator>Goodbye!</terminator>
+</chatbot>
+<chatbot_movies>
+	<movie>The Grand Budapest Hotel</movie>
+	<movie>Blazing Saddles</movie>
+	<movie>Avengers: Infinity War</movie>
+	<movie>Three Billboards Ouside Ebbing Missouri</movie>
+</chatbot_movies>
+<chatbot_actors>
+	<actor>
+		<name>Gene Wilder</name>
+		<eval>love</eval>
+	</actor>
+	<actor>
+		<name>Ralph Fiennes</name>
+		<eval>enjoy</eval>
+	</actor>
+	<actor>
+		<name>Bill Murray</name>
+		<eval>enjoy</eval>
+	</actor>
+	<actor>
+		<name>Robert Downey Jr.</name>
+		<eval>dislike</eval>
+	</actor>
+	<actor>
+		<name>Chris Evans</name>
+		<eval>dislike</eval>
+	</actor>
+	<actor>
+		<name>Chris Hemsworth</name>
+		<eval>like</eval>
+	</actor>
+	<actor>
+		<name>Woody Harrelson</name>
+		<eval>enjoy</eval>
+	</actor>
+	<actor>
+		<name>Sam Rockwell</name>
+		<eval>hate</eval>
+	</actor>
+</chatbot_actors>
+<chatbot_actresses>
+	<actress>
+		<name>Frances McDormand</name>
+		<eval>love</eval>
+	</actress>
+	<actress>
+		<name>Scarlett Johansson</name>
+		<eval>enjoy</eval>
+	</actress>
+	<actress>
+		<name>Madeline Khan</name>
+		<eval>love</eval>
+	</actress>
+	<actress>
+		<name>Saoirse Ronan</name>
+		<eval>hate</eval>
+	</actress>
+	<actress>
+		<name>Tilda Swinton</name>
+		<eval>hate</eval>
+	</actress>
+	<actress>
+		<name>Amy Adams</name>
+		<eval>dislike</eval>
+	</actress>
+</chatbot_actresses>
+<chatbot_directors>
+	<director>
+		<name>Steven Spielberg</name>
+		<eval>like</eval>
+	</director>
+	<director>
+		<name>Edgar Wright</name>
+		<eval>don't like</eval>
+	</director>
+	<director>
+		<name>Wes Anderson</name>
+		<eval>like</eval>
+	</director>
+	<director>
+		<name>Ridley Scott</name>
+		<eval>don't like</eval>
+	</director>
+</chatbot_directors>
+<query>How are you?</query>
+<query>What movies do you like?</query>
+<query>Who is your favorite actor?</query>
+<query>Who is your favorite actress?</query>
+<query>Who is your favorite director?</query>
+<response>I am fine, thank you.</response>
+<response>I do not understand</response>
+<response>Why do you say that?</response>
+<response>Could you restate that so I understand better?</response>
+<statement>Hello ${first_name}!</statement>
+<statement>My name is ${first_name}.</statement>
+</class>
+
+
